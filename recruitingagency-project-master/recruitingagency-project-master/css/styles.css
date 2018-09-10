@@ -1,0 +1,155 @@
+
+.topbar{
+  padding: 5px 0px;
+background: #16AFBF;
+}
+.social-icons{
+  margin-right: 5px;
+  font-size: 17px;
+  color: white;
+}
+.contact-info{
+  font-family: proxima-nova, "Helvetica Neue", Helvetica, sans-serif;
+  color: #F6F7F9;
+}
+.margin{
+  margin-right: 20px;
+}
+.mymenu{
+  margin-top: 5px;
+  color:#60C9EB; 
+  }
+.lynda{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 27px;
+  font-weight: bold;
+
+}
+.logohead{
+ color:#16AFBF;
+ font-weight: bold;
+}
+.margin-nav{
+  margin-top: 10px;
+  font-family: proxima-nova, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 550;
+  font-size: 14px;
+}
+.mymenu .navbar-default{
+  background-color:white;
+  border: none;
+}
+.mymenu .navbar-nav .active a, .mymenu .navbar-nav .active a:hover{
+  background-color:#16AFBF;
+  color: white;
+
+}
+
+.mymenu .navbar-nav li a{
+  margin-left: 2px;
+}
+.mymenu .navbar-nav li a:hover{
+  background-color: #16AFBF;
+  color: white;
+
+}
+
+.btmbr{
+   background-color: #16AFBF;
+  color: white;
+}
+
+.btmpad{
+  margin-top: 20px;
+}
+.heading{
+  text-align: center;
+font-size: 10px;
+  font-weight: bold;;
+  border-bottom: 2px solid white;
+}
+.btmpad ul{
+  margin-top:20px;
+
+}
+.btmpad ul li{
+  list-style: none;
+  padding: 5px;
+  text-align: left;
+}
+.btmpad a{
+  color: white;
+}
+.copy{
+  margin-top: 4px;
+}
+.copy span{
+   
+  margin-right: 3px;
+  padding-right: 5px;
+  font-size:12px;
+ 
+   
+}
+.copy p{
+  font-size: 12px;
+  padding: 5px;
+}
+.brd{
+  border-right:2px solid black;
+   
+}
+.mission p{
+  font-family: Verdana, sans-serif;
+}
+
+.frm{
+	margin-top:50px; 
+
+}
+.frm h2{
+  color: #16AFBF;
+}
+.info{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #16AFBF;
+}
+.info .rw{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.contact{
+  border-radius: 5px;
+}
+.news{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.coming{
+  margin-top: 50px;
+  margin-bottom: 50px;
+   
+
+}
+@media(max-width: 500px) {
+  .topbar .text-right{
+    float:left !important;
+  }
+
+}
+
+@media(max-width: 360px) {
+  .topbar .blk,.topbar .margin{
+    margin-top: 5px;
+    display: block;
+    float: left !important;
+  }
+
+}
+@media(max-width:750px){
+  .mymenu .pull-right{
+    float: none !important;
+  }
+}
+
